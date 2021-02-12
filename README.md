@@ -50,4 +50,4 @@ Django web application for demonstration purpose.
    python manage.py runserver
    ```
    
-7. Open brower to `http://127.0.0.1:8000`.
+7. Open browser to `http://127.0.0.1:8000`.
