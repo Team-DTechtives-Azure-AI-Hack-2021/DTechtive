@@ -15,7 +15,7 @@ Django web application for demonstration purpose.
 1. Create Conda environment and install dependencies.
    ```
    conda create -n env
-   source activate env
+   conda activate env
    pip install -r requirements.txt
    ```
    
@@ -25,6 +25,7 @@ Django web application for demonstration purpose.
    ```
    
 3. Create user name, password, set credentials, create vhost accordingly. See CELERY_BROKER_URL in [setting file](locallibrary/setting.py)
+   
    ```
    # create user
    $ sudo rabbitmqctl add_user catalog catalog
